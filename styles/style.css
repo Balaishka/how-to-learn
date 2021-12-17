@@ -18,11 +18,13 @@
 
 
 .header {
+  background-color: #f2f2f2;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
   position: relative;
+  z-index: -1;
 }
 
 .logo_place_header {
@@ -40,7 +42,7 @@
   line-height: 96px;
   margin: 0 0 0 64px;
   width: 730px;
-  height: 100%;
+  min-height: 100%;
   position: relative;
   z-index: 1;
 }
@@ -91,7 +93,7 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: auto;
   width: 80%;
 }
 
@@ -113,7 +115,7 @@
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
-  margin: 0 0 30px 0;
+  margin: 0 0 30px;
 }
 
 .two-columns__paragraph:last-of-type {
@@ -128,35 +130,39 @@
 
 
 .digits {
-  margin: 0 0 100px;
-  text-align: center;
+  margin: 100px 0;
 }
 
 .section-title {
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
-  margin: 0 0 20px;
+  margin: 0 auto 20px;
+  text-align: center;
+  width: 60%;
 }
 
 .section-subtitle {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
-  margin: 0;
+  margin: auto;
+  text-align: center;
+  width: 60%;
 }
 
 .table {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
+  list-style: none;
+  margin: auto;
+  padding: 0;
   width: 1100px;
 }
 
 .table__cell {
   margin-top: 60px;
-  text-align: left;
   width: 250px;
 }
 
@@ -188,7 +194,7 @@
   background-size: 867px 637px;
   background-color: #f2f2f2;
   height: 890px;
-  text-align: center;
+  padding-top: 100px;
   position: relative;
 }
 
@@ -196,7 +202,9 @@
   font-size: 120px;
   font-weight: 600;
   line-height: 1.15;
-  margin: 0 0 70px;
+  margin: 0 auto 70px;
+  text-align: center;
+  width: 648px;
 }
 
 .feynman__subtitle {
@@ -204,6 +212,7 @@
   font-weight: normal;
   line-height: 51px;
   margin: 0;
+  text-align: center;
 }
 
 .feynman__link {
@@ -224,7 +233,6 @@
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
-  text-align: center;
   padding: 90px 0;
   z-index: -1;
 }
@@ -293,13 +301,13 @@
 }
 
 .footer__column-links {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 16px;
 }
 
 .footer__column-link {
   color: #fff;
+  display: flex;
+  align-items: center;
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
