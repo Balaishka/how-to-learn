@@ -24,7 +24,7 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 .logo_place_header {
