@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .logo {
@@ -15,7 +15,6 @@
 }
 
 /* Header */
-
 
 .header {
   background-color: #f2f2f2;
@@ -85,7 +84,6 @@
 
 /* Content description */
 
-
 .description {
   margin: 100px 0;
 }
@@ -127,7 +125,6 @@
 }
 
 /* Content digits */
-
 
 .digits {
   margin: 100px 0;
@@ -186,7 +183,6 @@
 
 /* Content feynman */
 
-
 .feynman {
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
@@ -228,7 +224,6 @@
 
 /* Content kaufman */
 
-
 .kaufman {
   background-color: #1f1f1f;
   position: relative;
@@ -261,7 +256,6 @@
 }
 
 /* Footer */
-
 
 .footer {
   background-color: #1f1f1f;
