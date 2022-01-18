@@ -2,4 +2,9 @@
   background-repeat: no-repeat;
   display: block;
   text-decoration: none;
+  transition: opacity .2s ease-in-out;
+}
+
+.logo:hover {
+  opacity: .7;
 }
